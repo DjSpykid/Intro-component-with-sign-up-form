@@ -1,0 +1,96 @@
+body{
+    font-size: 16px;
+    background-image: url("bg-intro-desktop.png");
+    background-color:hsl(0, 100%, 74%);
+    height: 110vh;
+    width: 1200px;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+}
+.first-row, .second-row {
+    flex: 1;
+    padding: 20px;
+  }
+.first-row{
+    justify-content: left;
+    color: #ffff;
+    font-weight: 800;
+    margin: 100px;
+}
+.nav{
+    padding: 5px;
+    background-color: hsl(248, 32%, 49%);
+    margin: 20px;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+}
+.band{
+    color:hsl(246, 25%, 77%);
+  }
+  .rind{
+    color: #fff;
+  }
+.card {
+    border: 2px solid #fff;
+    margin: 20px;
+    background-color: #fff;
+    height: 400px;
+    padding: 20px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 15px;
+  }
+  input {
+    padding: 2px;
+    margin: 7px;
+    width: 80%;
+    height: 10%;
+  }
+  .main{
+    border-style: hsl(249, 10%, 26%);
+  }
+  
+.mainhex{
+    border-radius: 2px;
+    justify-content: center;
+}
+.main::placeholder {
+    position: relative;
+    padding: 20px;
+    color:hsl(249, 10%, 26%);
+}
+.mainhex::placeholder{
+    padding: 20px;
+    color:hsl(249, 10%, 26%);
+    position: relative;
+}
+button{
+    color: #fff;
+    background-color: hsl(154, 59%, 51%);
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid hsl(154, 59%, 51%);
+}
+.marking{
+    color: hsl(249, 10%, 26%);
+}
+a{
+    color:  hsl(0, 100%, 74%);
+}
+h4{
+    text-align: center;
+}
+.attribution{
+    text-align: center;
+    padding-left: 700px;
+}
